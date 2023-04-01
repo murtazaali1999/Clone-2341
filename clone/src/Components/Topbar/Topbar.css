@@ -1,0 +1,71 @@
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  background-color: rgb(29, 29, 29);
+  align-items: center;
+}
+
+.topbar-left {
+  flex: 3;
+}
+
+.topbar-left p {
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.topbar-right {
+  flex: 7;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.menubar {
+  border-radius: 10% !important;
+}
+
+.menu {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.menu:hover {
+  background-color: black;
+}
+
+.nav-menu {
+  position: absolute;
+  margin-top: 400px;
+  z-index: 5;
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.nav-menu h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.nav-bar-menu {
+  margin-top: 100px !important;
+  margin-left: 20px !important;
+  height: 40px;
+  width: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden:active {
+  transition: 0.5s;
+}
